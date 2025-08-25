@@ -8,9 +8,7 @@ function handleButtonPress(type) {
             break;
 
         case "win-" :
-            if(wins > 0){
-                wins--;
-            }
+            if(wins > 0) wins--;
             break;    
 
         case "lose+" :
@@ -18,14 +16,11 @@ function handleButtonPress(type) {
             break;  
 
         case "lose-" :
-            if(losses > 0) {
-                losses--;
-            }
+            if(losses > 0) losses--;
             break;
 
         case "clear" :
-            wins = 0;
-            losses = 0;
+            wins = losses = 0;
             break;
     }
     document.getElementById('wins').textContent = wins;
