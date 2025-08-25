@@ -1,7 +1,7 @@
 Usage of the **OBS Win/Loss Counter**
 
 **USAGE:**
-- Add a new **Source** in OBS and select **Browser**.
+- Click Add a new **Source** in OBS and select **Browser**.
 - **Open the File** *(index.html)* in Your browser and **Copy the URL** *(It should look something like that "C:/User/folder-name/obs-win-loss-counter/inedx.html")*.
 - **Paste** in the **URL** into the **OBS**.
 - Set **Width/Height** preferably to **500x500** to avoid potential issues with scaling.
